@@ -1,0 +1,25 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#renderCanvas {
+    height: 100%;
+    outline: none;
+    touch-action: none;
+    width: 100%;
+}
+
+.content {
+    background-color: transparent;
+    color: black;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+}
